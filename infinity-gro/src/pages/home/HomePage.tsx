@@ -1,9 +1,10 @@
 import Nav from "@/components/Nav";
 import "./index.css";
+import ServicesSection from "@/components/ServicesSection";
 const HomePage = () => {
   return (
-    <main>
-      <section id="hero" className="w-screen">
+    <main className="w-screen">
+      <section id="hero">
         <div className="bg-black h-full w-full opacity-35 absolute"></div>
 
         <div className="w-full absolute h-full flex items-center justify-center">
@@ -12,6 +13,9 @@ const HomePage = () => {
         <nav className="absolute">
           <Nav />
         </nav>
+      </section>
+      <section className="w-full">
+        <ServicesSection />
       </section>
     </main>
   );

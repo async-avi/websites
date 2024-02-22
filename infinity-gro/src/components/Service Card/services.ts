@@ -1,4 +1,4 @@
-export const services = [
+const services = [
   {
     id: 1,
     title: "Apostille",
@@ -30,3 +30,5 @@ export const services = [
       "HRD Attestation validates educational documents like mark sheets, SSC, and degree certificates, affirming their authenticity by the respective university. Crucial for international mobility, ensuring credibility when applying for education or employment abroad.",
   },
 ];
+
+export default services;
